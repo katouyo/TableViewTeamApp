@@ -17,7 +17,7 @@ class Fourth_TableViewController: UITableViewController {
         "ワゴンR",
         "ジムニー",
         "N-BOX",
-        "パナメーラ",
+        "パナメーラ"
         ]
 
     override func viewDidLoad() {
@@ -47,6 +47,8 @@ class Fourth_TableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "NameCell", for: indexPath)
 
         // Configure the cell...
+        
+        cell.textLabel?.text = names[indexPath.row]
 
         return cell
     }
