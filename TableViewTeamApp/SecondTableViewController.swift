@@ -11,16 +11,14 @@ import UIKit
 class SecondTableViewController: UITableViewController {
 
     var names: [String] = [
-        "麻生",
-        "蒲田",
-        "佐藤",
-        "田中",
-        "中村",
-        "萩原",
-        "松本",
-        "矢田",
-        "楽山",
-        "渡部"
+        "トルコ",
+        "エジプト",
+        "ナイジェリア",
+        "ケニア",
+        "南アフリカ共和国",
+        "イラク",
+        "イラン",
+        "日本",
     ]
     override func viewDidLoad() {
         super.viewDidLoad()
