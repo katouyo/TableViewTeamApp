@@ -10,16 +10,15 @@ import UIKit
 
 class TableViewController: UITableViewController {
     var names: [String] = [
-        "麻生",
-        "蒲田",
         "佐藤",
+        "鈴木",
+        "高橋",
         "田中",
+        "伊藤",
+        "渡辺",
+        "山本",
         "中村",
-        "萩原",
-        "松本",
-        "矢田",
-        "楽山",
-        "渡部"
+        "小林",
     ]
 
     override func viewDidLoad() {
